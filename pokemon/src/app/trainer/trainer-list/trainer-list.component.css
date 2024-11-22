@@ -1,3 +1,6 @@
+*{
+  background-color: blue;
+}
 tr:hover {
     background-color: gold;
     cursor: pointer;

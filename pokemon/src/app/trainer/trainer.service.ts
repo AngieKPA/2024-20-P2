@@ -17,7 +17,7 @@ constructor(private http: HttpClient) { }
   return this.http.get<Trainer[]>(this.apiUrl);
 }
 
-//
+//último punto
 getTotalPokemons(trainers: Trainer[]): number {
   let totalPokemons: number = 0;
   trainers.forEach((trainer) => totalPokemons = trainer.pokemons.length);
